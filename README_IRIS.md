@@ -204,5 +204,3 @@ Spliting features and lables
 * GitHub: https://github.com/Yash1723vk/
 
 ---
-
-Let me know if you'd like to add **visuals**, a **license**, or a **requirements.txt** for even more professionalism.
