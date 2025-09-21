@@ -11,12 +11,12 @@ import matplotlib.pyplot as plt
 def WinePredictor(datapath):
     df = pd.read_csv(datapath)
 
-    df.dropna(columns = ['Class'])
+    df.dropna(subset= ['Class'], inplace= True)
 
     x = df.drop(columns= ['Class'])
     y = df['Class']
     
-    scaler = StandardScaler
+    scaler = StandardScaler()
     x_scale = scaler.fit_transform(x)
 
     x_train ,x_test ,y_train, y_test = train_test_split(x_scale ,y, test_size= 0.2, random_state= 42)
