@@ -133,9 +133,6 @@ sns.heatmap(df.corr(), annot=True, cmap='coolwarm')
 * Visualizes feature correlation using Seaborn.
 * Helps understand relationships between variables and the target (`Survived`).
 
-> 🛠️ **Note:** There’s a bug in the code here:
-> You used `df.corr` instead of `df.corr()`. The correct usage includes parentheses.
-
 ---
 
 #### ✅ Step 6: Feature & Target Separation
