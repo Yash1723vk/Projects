@@ -182,7 +182,4 @@ This project demonstrates my ability to:
 * Email: kalokheyashshree@gmail.com
 * GitHub: https://github.com/Yash1723vk/Projects/new/main/WinePredictor
 
-
 ---
-
-Would you like me to provide a **bug-fixed version of your Python script** as well?
