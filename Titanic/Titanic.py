@@ -38,7 +38,7 @@ def TitanicLogistic(datapath):
     print("Dimensions of labels ", y.shape)
 
     scaler = StandardScaler()
-    x_scale = scaler.fit_tranform(x)
+    x_scale = scaler.fit_transform(x)
     
     x_train ,x_test ,y_train, y_test = train_test_split(x_scale ,y, test_size= 0.2, random_state= 42)
 
