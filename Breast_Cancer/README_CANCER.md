@@ -158,16 +158,6 @@ confusion matrix:
 
 ---
 
-## 🧪 Potential Improvements
-
-* Try different kernels (`'rbf'`, `'poly'`) and compare performance.
-* Use **cross-validation** for better generalization.
-* Plot the **ROC curve** and compute **AUC score**.
-* Try **feature selection** to reduce dimensionality.
-* Use **GridSearchCV** to tune `C` and `kernel` parameters.
-
----
-
 ## 🧠 Key Skills Demonstrated
 
 This project reflects proficiency in:
