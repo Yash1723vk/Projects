@@ -27,7 +27,7 @@ def TitanicLogistic(datapath):
     df['Embarked'].fillna(df['Embarked'].mode()[0], inplace = True)
 
     plt.figure(figsize = (10,6))
-    sns.heatmap(df.corr, annot  =True , cmap= 'coolwarm')
+    sns.heatmap(df.corr(), annot  =True , cmap= 'coolwarm')
     plt.title("Correlation heat map")
     show()
 
