@@ -1,7 +1,5 @@
 🌸 Iris Dataset Case Study
 ✅ Author: Yashshree Ganesh Kalokhe
-🏢 Company Context: Scale AI (Prospective Candidate)
-
 
 📌 Project Overview
 
