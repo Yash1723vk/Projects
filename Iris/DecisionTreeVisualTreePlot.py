@@ -2,18 +2,19 @@ from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import accuracy_score
+
 import matplotlib.pyplot as plt
 from sklearn.tree import plot_tree
 
 def DecisionTree():
-    iris = load_iris() #data set come
+    iris = load_iris()
 
-    X = iris.data   # independent
-    Y = iris.target #dependent
+    X = iris.data
+    Y = iris.target
 
-    X_train , X_test, Y_train, Y_test = train_test_split(X,Y,test_size = 0.2) #split the data
+    X_train , X_test, Y_train, Y_test = train_test_split(X,Y,test_size = 0.2)
     
-    model = DecisionTreeClassifier() #take default values
+    model = DecisionTreeClassifier()
 
     model = model.fit(X_train, Y_train)
     Y_predict = model.predict(X_test)
@@ -32,5 +33,4 @@ def main():
 
 if __name__ == "__main__":
     main()    
-
 # why acc is diff is due to random state    
