@@ -161,6 +161,5 @@ Through this project, I demonstrate:
 
 ## 📧 Contact
 
-* **Email:** [your.email@example.com](mailto:your.email@example.com)
-* **GitHub:** [Your GitHub](https://github.com/your-username)
-* **LinkedIn:** [Your LinkedIn](https://linkedin.com/in/your-profile)
+* Email: kalokheyashshree@gmail.com
+* GitHub: https://github.com/Yash1723vk/Graphs
