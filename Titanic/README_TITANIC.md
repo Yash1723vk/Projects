@@ -23,7 +23,8 @@ The dataset used is a version of the classic **Titanic dataset**, which includes
 
 **Target Variable:**
 
-* `Survived` → 1 (Survived), 0 (Did not survive)
+* `Survived` -> 1
+* `Not survived` -> 0
 
 ---
 
@@ -224,26 +225,15 @@ The confusion matrix is:
 
 ---
 
-## 🚀 Opportunities for Improvement
-
-* Handle more missing data (like `Age`) using imputation.
-* Encode `Embarked` column using One-Hot Encoding for better results.
-* Try other classifiers like Random Forest or SVM.
-* Plot ROC curve and calculate AUC.
-* Export model using `joblib` for deployment.
-
----
-
 ## 💼 Why This Project Matters
 
-This project showcases your ability to:
+This project showcases my ability to:
 
 * Clean and transform messy real-world data
 * Apply and evaluate a basic machine learning model
 * Visualize data to support feature selection
 * Build a reproducible and modular pipeline
 
-Exactly the kind of skills **Scale AI** and other top AI/ML employers value.
 
 ---
 
@@ -253,5 +243,3 @@ Exactly the kind of skills **Scale AI** and other top AI/ML employers value.
 * **GitHub:** https://github.com/Yash1723vk/Projects/new/main/Titanic
 
 ---
-
-Would you like me to fix the bugs in your code and provide a corrected version?
