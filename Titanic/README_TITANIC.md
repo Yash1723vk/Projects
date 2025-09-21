@@ -158,10 +158,7 @@ x_scale = scaler.fit_transform(x)
 ```
 
 * Standardizes the feature matrix to have 0 mean and unit variance.
-* Essential for Logistic Regression and other models that are sensitive to feature scales.
-
-> ⚠️ **Note:** There’s a typo here:
-> Use `fit_transform()` instead of `fit_tranform()`.
+* Essential for Logistic Regression and other models that are sensitive to feature scales
 
 ---
 
