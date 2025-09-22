@@ -39,8 +39,8 @@ The dataset (`headbrain.csv`) contains data for a group of individuals with the 
 head-brain-regression/
 │
 ├── HeadBrain.py      # Python script (your code)
-├── headbrain.csv                # Dataset file
-├── README_HEAD.md                    # Documentation (this file)
+├── headbrain.csv     # Dataset file
+├── README_HEAD.md    # Documentation (this file)
 ```
 
 ---
