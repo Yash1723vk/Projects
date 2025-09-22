@@ -9,8 +9,8 @@ This project uses **Logistic Regression** to predict whether a person is diabeti
 ```
 .
 ├── diabetes.csv         # Dataset file
-├── Diabetes.py  # Main Python script
-└── README_DIABETES.md            # Project description
+├── Diabetes.py          # Main Python script
+└── README_DIABETES.md   # Project description
 ```
 
 ---
@@ -73,6 +73,6 @@ Training Accuracy
 
 ---
 
-📧 Contact
-Email: kalokheyashshree@gmail.com
-GitHub: https://github.com/Yash1723vk/Diabetes
+# 📧 Contact
+* Email: kalokheyashshree@gmail.com
+* GitHub: https://github.com/Yash1723vk/Diabetes
